@@ -95,6 +95,8 @@ namespace ScintillaNET
         public const int INDIC_TEXTFORE = 17;
         public const int INDIC_POINT = 18;
         public const int INDIC_POINTCHARACTER = 19;
+        public const int INDIC_GRADIENT = 20;
+        public const int INDIC_GRADIENTCENTRE = 21;
         public const int INDIC_MAX = 31;
         public const int INDIC_CONTAINER = 8;
 
@@ -950,6 +952,8 @@ namespace ScintillaNET
         public const int SCI_GETMOUSEWHEELCAPTURES = 2697;
         public const int SCI_TOGGLEFOLDSHOWTEXT = 2700;
         public const int SCI_FOLDDISPLAYTEXTSETSTYLE = 2701;
+        public const int SCI_GETCARETLINEFRAME = 2704;
+        public const int SCI_SETCARETLINEFRAME = 2705;
         public const int SCI_STARTRECORD = 3001;
         public const int SCI_STOPRECORD = 3002;
         public const int SCI_SETLEXER = 4001;
@@ -1467,6 +1471,17 @@ namespace ScintillaNET
         public const int SCE_PAS_CHARACTER = 12;
         public const int SCE_PAS_OPERATOR = 13;
         public const int SCE_PAS_ASM = 14;
+
+        // Matlab
+        public const int SCE_MATLAB_DEFAULT = 0;
+        public const int SCE_MATLAB_COMMENT = 1;
+        public const int SCE_MATLAB_COMMAND = 2;
+        public const int SCE_MATLAB_NUMBER = 3;
+        public const int SCE_MATLAB_KEYWORD = 4;
+        public const int SCE_MATLAB_STRING = 5;
+        public const int SCE_MATLAB_OPERATOR = 6;
+        public const int SCE_MATLAB_IDENTIFIER = 7;
+        public const int SCE_MATLAB_DOUBLEQUOTESTRING = 8;
 
         // Perl
         public const int SCE_PL_DEFAULT = 0;
